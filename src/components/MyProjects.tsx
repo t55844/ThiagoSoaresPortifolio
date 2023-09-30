@@ -1,3 +1,5 @@
+import CardMyProject from "./CardMyProject";
+
 export default function MyProjects() {
   return (
     <section className="work py-16" id="work">
@@ -10,23 +12,12 @@ export default function MyProjects() {
         </h3>
         {/* Substitua pelos itens do seu portfólio */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* ITEM DE PORTFÓLIO UM */}
-          <div className="border p-4 rounded-lg shadow-md">
-            <img
-              src="imagem-do-item-de-trabalho-1.jpg"
-              alt="Trabalho 1"
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
-            <h4 className="text-xl font-semibold mb-2">Trabalho 1</h4>
-            <p>
-              Descrição do Trabalho 1. Para quando você precisa de um tempo
-              longe do seu parceiro, mas já tem um babá. Agora os casais podem
-              ir a eventos diferentes em locais semelhantes e ao mesmo tempo.
-            </p>
-            {/* Adicione links e botões para este item de trabalho */}
-          </div>
-
-          {/* Adicione mais itens de trabalho aqui */}
+          <CardMyProject
+            title="Plants Lovers"
+            description="Introdução Plants Lovers é uma plataforma baseada na web projetada para que os amantes de plantas explorem, aprendam e acompanhem suas plantas favoritas. É o lugar perfeito para se conectar com outros entusiastas de plantas, descobrir novas espécies e construir sua própria coleção digital de plantas."
+            githubLink="https://github.com/t55844/plants-lovers"
+            images={["/Plants2.PNG", "/Plants1.PNG", "/Plants3.PNG"]}
+          />
         </div>
       </div>
     </section>

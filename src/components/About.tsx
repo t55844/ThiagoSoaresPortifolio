@@ -8,7 +8,7 @@ export default function About() {
         <h3 className="text-2xl font-semibold text-center mb-4">
           Quem é Thiago?
         </h3>
-        <div className="flex flex-col md:flex-row items-center md:space-x-4">
+        <div className="flex flex-col md:flex-row items-center md:space-x-4 ">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <img
               src="/MyPhoto.jpg"
@@ -16,7 +16,7 @@ export default function About() {
               className="w-96 h-96 mx-auto md:ml-0 rounded-full mb-4"
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full p-3 md:w-1/2">
             <h4 className="text-xl font-semibold mb-2">
               Um Desenvolvedor Web movido pela curiosidade, com habilidades em
               Front-End e Back-End.
