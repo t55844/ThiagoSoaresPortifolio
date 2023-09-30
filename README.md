@@ -1,1 +1,3 @@
+Este é o repositório do site do meu portfólio pessoal. Este site serve como uma vitrine do meu trabalho, habilidades e realizações. Ele foi projetado para fornecer aos visitantes uma visão geral de quem sou como profissional e o que tenho a oferecer. Sinta-se à vontade para explorar o repositório e usá-lo como referência para criar seu próprio site de portfólio.
+
 This is the repository for my personal portfolio website. This website serves as a showcase of my work, skills, and accomplishments. It is designed to provide visitors with an overview of who I am as a professional and what I have to offer. Feel free to explore the repository and use it as a reference for creating your own portfolio website.
