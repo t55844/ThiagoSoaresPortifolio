@@ -8,7 +8,10 @@ export default function CardMyProject(props: {
 }) {
   const { title, description, images, githubLink } = props;
   return (
-    <div className="border p-4 rounded-lg shadow-md">
+    <div className="m-8 border p-4 rounded-lg shadow-md">
+      <h3 className="m-auto md:w-1/2 p-2 text-xl mb-3 text-center border-b-4 border-gray-600 bg-gray-200 ">
+        Projeto: {title}
+      </h3>
       <Carousel images={images} />
       <h4 className="text-xl font-semibold mb-2">{title}</h4>
       <p>{description}</p>
