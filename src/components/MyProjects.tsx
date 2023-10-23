@@ -1,4 +1,3 @@
-import SpaceEnemys from "../spaceEnemysGame/SpaceEnemys";
 import CardMyProject from "./CardMyProject";
 
 export default function MyProjects() {
@@ -17,9 +16,9 @@ export default function MyProjects() {
             title="Plants Lovers"
             description="Introdução Plants Lovers é uma plataforma baseada na web projetada para que os amantes de plantas explorem, aprendam e acompanhem suas plantas favoritas. É o lugar perfeito para se conectar com outros entusiastas de plantas, descobrir novas espécies e construir sua própria coleção digital de plantas."
             githubLink="https://github.com/t55844/plants-lovers"
-            images={["/Plants2.PNG", "/Plants1.PNG", "/Plants3.PNG"]}
+            siteLink="https://plants-lovers.vercel.app/"
+            images={["/Plants2.PNG", "/Plants1.PNG", "/Plants4.PNG"]}
           />
-          <SpaceEnemys />
         </div>
       </div>
     </section>

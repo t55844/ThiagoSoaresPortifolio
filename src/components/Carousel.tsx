@@ -22,7 +22,8 @@ export default function Carousel(props: { images: string[] }) {
       <img
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
-        className="w-full h-auto"
+        style={{ maxHeight: "800px" }}
+        className="w-full"
       />
       <button
         className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-l-md"
