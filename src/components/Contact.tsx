@@ -9,18 +9,6 @@ export default function Contact() {
           Entre em contato
         </h3>
         <div className="flex flex-col-reverse md:flex-row justify-between items-center m-5">
-          <div className="md:w-2/5">
-            <p className="mb-4">
-              Deixando uma mensagem para dizer olá, pedir meu currículo ou ver
-              se podemos construir algo incrível juntos? Ficarei feliz em ouvir
-              de você!
-            </p>
-            <p className="mb-4">
-              Preencha suas informações no formulário abaixo e estou ansioso
-              para receber notícias suas!
-            </p>
-            {/* Adicione um formulário de contato aqui */}
-          </div>
           <div className="w-full ">
             <p className="mb-4 font-semibold">
               Se sentindo social? Me encontre também nestes espaços online!
